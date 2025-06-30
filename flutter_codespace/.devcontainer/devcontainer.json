@@ -1,0 +1,14 @@
+{
+  "name": "Flutter Dev Container",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "settings": {
+    "terminal.integrated.shell.linux": "/bin/bash"
+  },
+  "extensions": [
+    "Dart-Code.flutter"
+  ],
+  "postCreateCommand": "flutter doctor",
+  "forwardPorts": [3000, 5000, 8000]
+}
